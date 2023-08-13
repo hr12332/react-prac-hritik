@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Heading{
+text-align: center;
+font-size: 50px;
+font-weight: 600;
+margin-top: 30px;
+}
+.display-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar-img{
+    width: 120px!important;
+    height: 120px!important;
+}
+.repo-name{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: start;
+    color: black;
+}
+.repo-description{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-align: start;
+}
+.combine-count-div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+}
+.stars-count{
+    border: 1px solid grey;
+    padding: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 10px;
+}
+.issues-count{
+    border: 1px solid grey;
+    padding: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.date-div{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    margin-left: 30px;
+}
+.avatar-div{
+    display: flex !important;
+    align-items: center;
+    justify-content: start !important;
+}
+.arrow{
+    font-size: 60px !important;
+    transition: all 0.5s !important;
+}
+.arrow:hover{
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.chart-div{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 40px;
+}
